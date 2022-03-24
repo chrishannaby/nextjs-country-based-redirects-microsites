@@ -5,7 +5,7 @@ import Cookies from "universal-cookie";
 const locales = [
   {
     name: "en-US",
-    path: "/us",
+    path: "/",
     language: "en",
     country: "US",
   },
@@ -40,10 +40,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{locale.name}</title>
+        <title>{locale}</title>
       </Head>
       <main>
-        <h1>Locale is {locale.name}</h1>
+        <h1>Locale is {locale}</h1>
         <ul>
           {locales.map((locale) => {
             return (
