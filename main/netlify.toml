@@ -1,0 +1,24 @@
+[[redirects]]
+  from = "/"
+  to = "/at/en"
+  status = 302
+  force = true
+  conditions = {Country = ["AT"]}
+
+[[redirects]]
+  from = "/"
+  to = "/at/de"
+  status = 302
+  force = true
+  conditions = {Country = ["AT"], Language = ["de"]}
+
+[[redirects]]
+  from = "/*"
+  to = "https://nextjs-redirects-us.netlify.app/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/at/*"
+  to = "https://nextjs-redirects-us.netlify.app/at/:splat"
+  status = 200
+

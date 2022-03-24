@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{local.name}</title>
+        <title>{locale.name}</title>
       </Head>
       <main>
         <h1>Locale is {locale.name}</h1>
