@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Cookies from "universal-cookie";
+const { NEXT_PUBLIC_STORE_COUNTRY } = process.env;
 
 const locales = [
   {
@@ -40,10 +41,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{locale}</title>
+        <title>{`${NEXT_PUBLIC_STORE_COUNTRY} ${locale}`}</title>
       </Head>
       <main>
-        <h1>Locale is {locale}</h1>
+        <h1>
+          Country is {NEXT_PUBLIC_STORE_COUNTRY}
+          <br /> Locale is {locale}
+        </h1>
         <ul>
           {locales.map((locale) => {
             return (
