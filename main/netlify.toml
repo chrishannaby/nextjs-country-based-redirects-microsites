@@ -19,6 +19,6 @@
 
 [[redirects]]
   from = "/at/*"
-  to = "https://nextjs-redirects-us.netlify.app/at/:splat"
+  to = "https://nextjs-redirects-at.netlify.app/at/:splat"
   status = 200
 
