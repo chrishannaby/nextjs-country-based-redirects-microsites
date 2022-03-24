@@ -13,12 +13,13 @@
   conditions = {Country = ["AT"], Language = ["de"]}
 
 [[redirects]]
+  from = "/at/*"
+  to = "https://nextjs-redirects-at.netlify.app/at/:splat"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "https://nextjs-redirects-us.netlify.app/:splat"
   status = 200
 
-[[redirects]]
-  from = "/at/*"
-  to = "https://nextjs-redirects-at.netlify.app/at/:splat"
-  status = 200
 
