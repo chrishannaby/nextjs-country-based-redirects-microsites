@@ -12,7 +12,7 @@ const locales = [
   },
   {
     name: "es-US",
-    path: "/",
+    path: "/es",
     language: "es",
     country: "US",
   },
