@@ -5,13 +5,13 @@ import Cookies from "universal-cookie";
 const locales = [
   {
     name: "en-US",
-    path: "/us/en",
+    path: "/us",
     language: "en",
     country: "US",
   },
   {
     name: "en-AT",
-    path: "/at/en",
+    path: "/at",
     language: "en",
     country: "AT",
   },

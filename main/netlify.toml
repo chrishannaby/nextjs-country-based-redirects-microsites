@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/"
-  to = "/at/en"
+  to = "/at"
   status = 302
   force = true
   conditions = {Country = ["AT"]}
