@@ -11,6 +11,12 @@ const locales = [
     country: "US",
   },
   {
+    name: "es-US",
+    path: "/",
+    language: "es",
+    country: "US",
+  },
+  {
     name: "en-AT",
     path: "/at",
     language: "en",
