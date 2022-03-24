@@ -1,16 +1,16 @@
 [[redirects]]
   from = "/"
-  to = "/at"
-  status = 302
-  force = true
-  conditions = {Country = ["AT"]}
-
-[[redirects]]
-  from = "/"
   to = "/at/de"
   status = 302
   force = true
   conditions = {Country = ["AT"], Language = ["de"]}
+
+[[redirects]]
+  from = "/"
+  to = "/at"
+  status = 302
+  force = true
+  conditions = {Country = ["AT"]}
 
 [[redirects]]
   from = "/"
